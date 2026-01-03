@@ -22,7 +22,7 @@ three_hourly_times = [
 ]
 
 # Initialize client
-client = cdsapi.Client(url="https://cds.climate.copernicus.eu/api", key="fbe8bfbd-087a-434c-a6bf-34c3451202e3")
+client = cdsapi.Client(url="https://cds.climate.copernicus.eu/api", key="####################") # Put API key here
 
 # Create data/ dir if doesn't exist
 os.makedirs("data", exist_ok=True)
